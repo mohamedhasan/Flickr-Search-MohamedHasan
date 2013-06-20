@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  CellImage.h
 //  astarAppzMohamedHasan
 //
 //  Created by Mohammed Hasan on 6/17/13.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface CellImage : UICollectionViewCell
 
-@property (strong, nonatomic) UIWindow *window;
+@property IBOutlet UIImageView *img;
 
 @end
