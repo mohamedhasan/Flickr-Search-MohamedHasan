@@ -7,17 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "NetConnect.h"
 
-#import "Results.h"
-
-
-
-
-@interface ViewController : UIViewController<NetworkProtocol,UITextFieldDelegate>
-
-@property(nonatomic)IBOutlet UITextField* textSearch;
-@property (nonatomic)SearchSession *session;
--(IBAction)searchButton:(id)sender;
+@interface ViewController : UIViewController
 
 @end
